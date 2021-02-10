@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/company_logo"
+        android:layout_width="423dp"
+        android:layout_height="157dp"
+        android:contentDescription="@string/logo_for_the_carlsberg_company"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/carlsberg_logo" />
+
+    <TextView
+        android:id="@+id/homeTextView"
+        android:layout_width="71dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/home"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/company_logo" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:onClick="toContactPage"
+        android:text="@string/contact_page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/contactButton"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:onClick="toBeerPage"
+        android:text="@string/beer_page"
+        app:layout_constraintBottom_toTopOf="@+id/homeButton"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/companyDescription"
+        android:layout_width="345dp"
+        android:layout_height="239dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/carlsberg_is_one_of_the_world_s_leading_brewery_groups_we_are_a_global_brewer_powered_by_strong_local_brands_we_have_more_than_140_brands_in_our_beer_portfolio_which_spans_core_beer_brands_craft_speciality_and_alcohol_free_brews_our_core_beer_includes_the_international_brands_carlsberg_and_tuborg_and_strong_local_power_brands_such_as_ringnes_in_norway_lvivske_in_ukraine_and_wusu_in_china"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTextView" />
+
+    <TextView
+        android:id="@+id/contactButtonDescription"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/press_the_butten_to_view_a_selection_of_our_brews"
+        app:layout_constraintBottom_toTopOf="@+id/contactButtonDescription"
+        app:layout_constraintEnd_toStartOf="@+id/contactButton" />
+
+    <TextView
+        android:id="@+id/contactButtonDescription"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:text="@string/press_the_button_to_view_our_contact_information"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/homeButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

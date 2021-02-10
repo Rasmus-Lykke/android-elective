@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebaseLoginWeek14</string>
+    <string name="password">password</string>
+    <string name="user_gmail_com">user@gmail.com</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="user_email_com">user@email.com</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyNotebookWithStorage</string>
+    <string name="textview">TextView</string>
+    <string name="plusSign">+</string>
+    <string name="your_notes_title">Your notes title</string>
+    <string name="save">Save</string>
+    <string name="your_notes_here">Your notes here</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="update">Update</string>
+</resources>

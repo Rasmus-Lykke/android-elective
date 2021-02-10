@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImagesWeek12</string>
+    <string name="photo_roll">Photo roll</string>
+    <string name="camera">Camera</string>
+    <string name="an_image">An image</string>
+    <string name="save_image">Save image</string>
+</resources>

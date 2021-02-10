@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BusinessCardWeek6</string>
+    <string name="logo_for_the_carlsberg_company">Logo for the carlsberg company</string>
+    <string name="home">Home</string>
+    <string name="contact_page">Contact page</string>
+    <string name="beer_page">Beer page</string>
+    <string name="carlsberg_is_one_of_the_world_s_leading_brewery_groups_we_are_a_global_brewer_powered_by_strong_local_brands_we_have_more_than_140_brands_in_our_beer_portfolio_which_spans_core_beer_brands_craft_speciality_and_alcohol_free_brews_our_core_beer_includes_the_international_brands_carlsberg_and_tuborg_and_strong_local_power_brands_such_as_ringnes_in_norway_lvivske_in_ukraine_and_wusu_in_china"><![CDATA[\"Carlsberg is one of the world\'s leading brewery groups. We are a global brewer, powered by strong local brands. We have more than 140 brands in our beer portfolio, which spans core beer brands, craft & speciality and alcohol-free brews. Our core beer includes the international brands Carlsberg and Tuborg and strong local power brands, such as Ringnes in Norway, Lvivske in Ukraine and Wusu in China.\"]]></string>
+    <string name="press_the_butten_to_view_a_selection_of_our_brews">Press the butten to view a selection of our brews</string>
+    <string name="press_the_button_to_view_our_contact_information">Press the button to view our contact information</string>
+    <string name="press_the_burron_to_view_our_home_page">Press the burron to view our home page</string>
+    <string name="home_page">Home page</string>
+    <string name="contact">Contact</string>
+    <string name="brews">Brews</string>
+    <string name="phone_45_3327_3300">Phone: (+45) 3327 3300</string>
+    <string name="email_contact_carlsberg_com">Email: contact@carlsberg.com</string>
+    <string name="address_ny_carlsberg_vej_100_1799_k_benhavn_v">Address: Ny Carlsberg Vej 100, 1799 København V</string>
+    <string name="a_map_over_the_carlsberg_headquarters">A map over the carlsberg headquarters</string>
+    <string name="image_and_info_about_the_classic_brew">Image and info about the classic brew</string>
+    <string name="image_and_info_about_the_1883_brew">Image and info about the 1883 brew</string>
+    <string name="image_and_info_about_the_alcohol_free_brew">Image and info about the Alcohol Free brew</string>
+    <string name="image_and_info_about_the_elephant_brew">Image and info about the Elephant brew</string>
+    <string name="image_and_info_about_the_unfiltered_brew">Image and info about the Unfiltered brew</string>
+    <string name="image_and_info_about_the_sort_guld_brew">Image and info about the Sort Guld brew</string>
+</resources>

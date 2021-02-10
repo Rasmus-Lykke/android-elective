@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/company_logo"
+        android:layout_width="423dp"
+        android:layout_height="157dp"
+        android:contentDescription="@string/logo_for_the_carlsberg_company"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/carlsberg_logo" />
+
+    <TextView
+        android:id="@+id/homeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:text="@string/contact"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/company_logo" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:onClick="toHomePage"
+        android:text="@string/home_page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/contactButton"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:onClick="toBeerPage"
+        android:text="@string/beer_page"
+        app:layout_constraintBottom_toTopOf="@+id/homeButton"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/contactButtonDescription"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/press_the_butten_to_view_a_selection_of_our_brews"
+        app:layout_constraintBottom_toTopOf="@+id/contactButtonDescription"
+        app:layout_constraintEnd_toStartOf="@+id/contactButton" />
+
+    <TextView
+        android:id="@+id/contactButtonDescription"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:text="@string/press_the_burron_to_view_our_home_page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/homeButton" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/phone_45_3327_3300"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTextView" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/email_contact_carlsberg_com"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneTextView" />
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/address_ny_carlsberg_vej_100_1799_k_benhavn_v"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="206dp"
+        android:layout_marginTop="135dp"
+        android:contentDescription="@string/a_map_over_the_carlsberg_headquarters"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/company_logo"
+        app:srcCompat="@drawable/carlsberg_maps" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
